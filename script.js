@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // ---- Semua kode kita sekarang ada di dalam sini ----
 
   // 1. Masukkan URL dan Kunci API Supabase Anda
-  const SUPABASE_URL = 'https://nyutkovektcpdgrbfblv.supabase.co'; 
-  const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im55dXRrb3Zla3RjcGRncmJmYmx2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE1MzAxNzksImV4cCI6MjA3NzEwNjE3OX0.yEUd0sKuUddochBYLxvAZIfJkiH6tUeMbkMAPNe8IR0'; 
+  const SUPABASE_URL = 'https://ysghyxjqfptabwsddacf.supabase.co'; 
+  const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlzZ2h5eGpxZnB0YWJ3c2RkYWNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4MzI0MjUsImV4cCI6MjA3ODQwODQyNX0.dqkFL7Qd9Sv9ZIz-pCpGWJRg2mhMl6w-pU9NDvXn5NY
 
   // 2. Buat koneksi ("pelayan") ke Supabase
   const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
@@ -151,5 +151,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // 5. Panggil fungsi tes SETELAH semuanya siap
   tesKoneksi();
+
 
 });
